@@ -1,0 +1,857 @@
+{% extends 'head.html' %} 
+{% block content %}
+<style data-styled="" data-styled-version="4.4.1">
+    .kyUqCt {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0px auto;
+      height: 145px;
+      padding: 0px 20px;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      justify-content: space-around;
+    }
+    @media screen and (max-width: 640px) {
+      .kyUqCt {
+        height: 100px;
+        padding: 0px 15px;
+      }
+    }
+    .guKAph {
+      width: 100px;
+      text-align: center;
+      font-size: 20px;
+      color: rgb(88, 120, 188);
+      font-weight: 500;
+    }
+    @media screen and (max-width: 640px) {
+      .guKAph {
+        width: 60px;
+        font-size: 16px;
+      }
+    }
+    .eyaBAy {
+      width: 100px;
+      text-align: center;
+      font-size: 20px;
+      color: rgb(88, 120, 188);
+      font-weight: 500;
+    }
+    @media screen and (max-width: 640px) {
+      .eyaBAy {
+        width: 60px;
+        font-size: 16px;
+      }
+    }
+    .hnlESl {
+      flex: 1 1 0%;
+      padding: 0px 20px;
+      text-align: center;
+    }
+    .hnlESl img {
+      width: 100%;
+      max-width: 120px;
+      min-width: 60px;
+    }
+    .jVWwwJ {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0px auto;
+      height: 160px;
+      display: flex;
+      flex-shrink: 0;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+    }
+    @media screen and (max-width: 640px) {
+      .jVWwwJ {
+        flex-direction: column;
+        height: auto;
+        margin: 30px 0px;
+      }
+      .jVWwwJ a {
+        margin: 10px 0px;
+      }
+    }
+    .hvbAKM {
+      width: 20px;
+      height: 20px;
+    }
+    .hvbAKM img {
+      height: 100%;
+    }
+    .YwSGw {
+      width: 150px;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+    }
+    .YwSGw p {
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      padding-left: 0.5em;
+      font-size: 14px;
+      color: rgb(88, 120, 188);
+      font-weight: 500;
+    }
+    @font-face {
+      font-family: SFMono;
+      src: url("") format("embedded-opentype"), url("") format("woff2"),
+        url("") format("woff"), url("") format("truetype"),
+        url("") format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: SFMono;
+      src: url("") format("embedded-opentype"), url("") format("woff2"),
+        url("") format("woff"), url("") format("truetype"),
+        url("") format("svg");
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: SFMono;
+      src: url("") format("embedded-opentype"), url("") format("woff2"),
+        url("") format("woff"), url("") format("truetype"),
+        url("") format("svg");
+      font-weight: 600;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: SFMono;
+      src: url("") format("embedded-opentype"), url("") format("woff2"),
+        url("") format("woff"), url("") format("truetype"),
+        url("") format("svg");
+      font-weight: bold;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "SF Pro Text";
+      src: url("SFProText-Regular.eot") format("embedded-opentype"),
+        url("SFProText-Regular.woff2") format("woff2"),
+        url("SFProText-Regular.woff") format("woff"),
+        url("SFProText-Regular.ttf") format("truetype"),
+        url("SFProText-Regular.svg") format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "SF Pro Text";
+      src: url("SFProText-Semibold.eot") format("embedded-opentype"),
+        url("SFProText-Semibold.woff2") format("woff2"),
+        url("SFProText-Semibold.woff") format("woff"),
+        url("SFProText-Semibold.ttf") format("truetype"),
+        url("SFProText-Semibold.svg") format("svg");
+      font-weight: 600;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "SF Pro Text";
+      src: url("SFProText-Medium.eot") format("embedded-opentype"),
+        url("SFProText-Medium.woff2") format("woff2"),
+        url("SFProText-Medium.woff") format("woff"),
+        url("SFProText-Medium.ttf") format("truetype"),
+        url("SFProText-Medium.svg") format("svg");
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "SF Pro Text";
+      src: url("SFProText-Bold.eot") format("embedded-opentype"),
+        url("SFProText-Bold.woff2") format("woff2"),
+        url("SFProText-Bold.woff") format("woff"),
+        url("SFProText-Bold.ttf") format("truetype"),
+        url("SFProText-Bold.svg") format("svg");
+      font-weight: bold;
+      font-style: normal;
+    }
+    html,
+    body,
+    #root,
+    #router-root {
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    body {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "SF Pro Text",
+        Roboto, Helvetica, Arial, sans-serif;
+      font-style: normal;
+      font-stretch: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: rgb(88, 112, 135);
+      overflow-y: auto;
+      text-rendering: optimizelegibility;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-font-smoothing: antialiased;
+      text-size-adjust: 100%;
+    }
+    button:active,
+    button:focus,
+    button.active {
+      background-image: none;
+      outline: 0px;
+      box-shadow: none;
+    }
+    [tabindex] {
+      outline: none;
+      height: 100%;
+    }
+    a,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-decoration: none;
+      margin: 0px;
+      padding: 0px;
+    }
+    h1 {
+      font-size: 42px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+    h5 {
+      font-size: 17px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+    a {
+      text-decoration: none;
+      outline: none;
+      color: rgb(65, 153, 252);
+      font-weight: bold;
+    }
+    ul,
+    li {
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+    }
+    * {
+      box-sizing: border-box !important;
+    }
+    button {
+      border-style: none;
+      line-height: 1em;
+    }
+    input {
+      appearance: none;
+    }
+    input[type="color"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="email"],
+    input[type="month"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="text"],
+    input[type="time"],
+    input[type="url"],
+    input[type="week"],
+    select:focus,
+    textarea {
+      font-size: 16px;
+    }
+    .statusbar-overlay {
+      opacity: 0;
+    }
+    #coinbase_button_iframe {
+      width: 244px !important;
+      margin-top: 40px !important;
+    }
+    #coinbase_widget {
+      display: inline-block;
+      margin-top: 56px !important;
+    }
+    .dijnUu {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
+    }
+    .fiuMUO {
+      width: 100%;
+      height: 100%;
+      margin: 0px auto;
+      position: relative;
+    }
+    .fuQfHo {
+      height: 100%;
+      max-width: 1064px;
+      margin: 0px auto;
+      padding: 0px;
+    }
+    .hfVnjX {
+      display: flex;
+      height: 100%;
+    }
+    @media screen and (max-width: 640px) {
+      .hfVnjX {
+        flex-direction: column;
+      }
+    }
+    .gAVVCu {
+      width: 100%;
+      height: 100%;
+      padding: 24px;
+      overflow: hidden;
+      background: rgb(255, 255, 255);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+    @media screen and (max-width: 640px) {
+      .gAVVCu {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 15px;
+      }
+    }
+    .hDbjSS {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px 32px 0px;
+    }
+    @media screen and (max-width: 640px) {
+      .hDbjSS {
+        padding: 20px 24px 0px;
+      }
+    }
+    .fAmUdU {
+      display: flex;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      width: 100%;
+      max-width: 700px;
+      margin: 0px auto;
+    }
+    .gFeYHJ {
+      font-size: 35px;
+      font-weight: 500;
+      text-align: center;
+    }
+    .jGHRMl {
+      margin-top: 40px;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.35;
+    }
+    .ibLsRQ {
+      position: relative;
+      width: 100%;
+      z-index: 0;
+      margin-bottom: 40px;
+    }
+    .cmAzHq {
+      width: 100%;
+    }
+    .lfUBtr {
+      width: 100%;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      padding: 25px;
+    }
+    .lfUBtr img {
+      filter: initial;
+      width: 100%;
+      height: 100%;
+      border-radius: initial;
+    }
+    .kSIOSl {
+      width: 100%;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      padding: 25px;
+    }
+    .kSIOSl img {
+      filter: initial;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    .eodRCW {
+      font-weight: bold;
+      color: inherit;
+    }
+    .ceWocr {
+      margin: 10px;
+      color: rgb(88, 112, 135);
+      opacity: 0.75;
+      padding-top: 30px;
+    }
+    .ceWocr a {
+      font-weight: 600;
+    }
+  </style>
+<div id="___gatsby">
+    <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+      <div class="layout__SWrapper-wjwiqk-0 dijnUu">
+        <div class="layout__SFlex-wjwiqk-3 hfVnjX">
+          <div class="layout__SContent-wjwiqk-1 fiuMUO">
+            <header class="Header__SHeader-cphy8j-0 kyUqCt">
+              <a href="index.html" target="blank" rel="noreferrer noopener" class="Header__SInternalLink-cphy8j-1-a eyaBAy">DEFI</a><a href="#" target="blank" rel="noreferrer noopener" class="Header__SInternalLink-cphy8j-1-a eyaBAy">PROTOCOL</a>
+              <div class="Header__SLogo-cphy8j-2 hnlESl" style="padding-top: 40px">
+                <a href="#"><img src="{{url_for('static', filename='Loader_img.png')}}" alt="WalletConnect"></a>
+              </div>
+              <a class="Header__SInternalLink-cphy8j-1 guKAph" href="index.html">Wallets</a><a class="Header__SInternalLink-cphy8j-1 guKAph" href="index.html">Apps</a>
+            </header>
+            <div class="layout__SContainer-wjwiqk-2 fuQfHo">
+              <div class="pageStyles__SIndexPage-sc-1navawn-0 hDbjSS">
+                <div class="pageStyles__SBrandingWrapper-sc-1navawn-1 fAmUdU">
+                  <h1 class="pageStyles__SBranding-sc-1navawn-2 gFeYHJ">
+                    Wallets
+                  </h1>
+                  <div class="pageStyles__SPageDescription-sc-1navawn-3 jGHRMl">
+                    Multiple iOS and Android wallets support the DeFi
+                    Protocol. Simply select your wallet to start securely
+                    using a dApp. Interaction between mobile apps and mobile
+                    browsers are supported via mobile deep linking.
+                  </div>
+                </div>
+                <section class="pageStyles__SSection-sc-1navawn-4 ibLsRQ">
+                  <div class="Grid__SGrid-sc-8d5rqj-0 gAVVCu">
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='metamask.png')}}" alt="Metamask">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Metamask
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='trustwallet.png')}}" alt="Trust">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Trust
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='wallet.jpeg')}}" alt="Wallet Connect">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Wallet Connect
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='safepal.png')}}" alt="SafePal">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          SafePal
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='blockchain.png')}}" alt="SafePal">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Blockchain
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='fantom.png')}}" alt="Fantom Phantom">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Fantom Phantom
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='binance.png')}}" alt="Metamask">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Binance
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='enj.JPG')}}" alt="Enjin wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Enjin wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='def.jpeg')}}" alt="Crypto.com | DeFi Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Crypto.com | DeFi Wallet
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='coinbase.png')}}" alt="Coinbase">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Coinbase
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='klver.png')}}" alt="Klever">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Klever
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='tomoo.png')}}" alt="Tomo wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Tomo wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='1inch.png')}}" alt="1inch wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          1inch wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='alpha.png')}}" alt="AlphaWallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          AlphaWallet
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='solfare.jpeg')}}" alt="Pillar">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Solfare
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='imtoken.jpeg')}}" alt="imToken">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          imToken
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='onto.png')}}" alt="ONTO">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          ONTO
+                        </div>
+                      </div></a>
+                      <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='math.png')}}" alt="MathWallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          MathWallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='bitpay.jpeg')}}" alt="BitPay">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          BitPay
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='phantom.jpg')}}" alt="Phantom">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Phantom
+                        </div>
+                      </div>
+                    </a>
+
+                   
+                   
+                      <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='huobi.png')}}" alt="Huobi Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Huobi Wallet
+                        </div>
+                        </div>
+                      </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='ellipal.png')}}" alt="Ellipal">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Ellipal
+                        </div>
+                      </div>
+                    </a>
+
+                    
+
+                    
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='sol.JPG')}}" alt="solana">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Solana
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='terra.png')}}" alt="Terra Station">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Terra Station
+                        </div>
+                      </div></a>
+
+                    
+                      <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='vault.jpeg')}}" alt="TrustVault">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          TrustVault
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='atomic.png')}}" alt="Atomic">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Atomic
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='tron.png')}}" alt="Tronlink">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Tronlink
+                        </div>
+                      </div></a>
+
+                    
+
+                    
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='vechain.png')}}" alt="GridPlus">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Vechain
+                        </div>
+                      </div></a>
+
+                   
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='exodus.png')}}" alt="CYBAVO Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Exodus Wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='luno.jpg')}}" alt="Tokenary">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Luno
+                        </div>
+                      </div>
+                    </a>
+
+                    
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='infinity.jpeg')}}" alt="Infinity Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Infinity Wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='ownbit.jpeg')}}" alt="Ownbit">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Ownbit
+                        </div>
+                      </div>
+                    </a>
+                        
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='argent.png')}}" alt="Argent">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Argent
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='bow.jpeg')}}" alt="Rainbow">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Rainbow
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="{{url_for('static', filename='tp.jpeg')}}" alt="Pillar">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Pillar
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="{{url_for('static', filename='cyb.png')}}" alt="CYBAVO Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          CYBAVO Wallet
+                        </div>
+                      </div></a>
+
+                    <!--  <a-->
+                    <!--   href="{{url_for('phr')}}"-->
+                    <!--  rel="noreferrer noopener"-->
+                    <!--  ><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">-->
+                    <!--    <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">-->
+                    <!--      <img-->
+                    <!--        src=".jpg"-->
+                    <!--        alt="Metamask"-->
+                    <!--      />-->
+                    <!--    </div>-->
+                    <!--    <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">-->
+                    <!--      Binance-->
+                    <!--    </div>-->
+                    <!--  </div></a-->
+                  </div>
+                </section>
+                <div class="pageStyles__SFootNote-sc-1navawn-8 ceWocr">
+                  <p>
+                    Open a pull request on<!-- -->
+                    <a href="https://github.com/walletconnect/walletconnect-website" rel="noreferrer noopener">Github</a>
+                    <!-- -->to add your wallet here.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <footer class="Footer__SFooter-sc-1k47aoh-0 jVWwwJ">
+              <a href="https://discord.gg/jhxMvxP" rel="noreferrer noopener" class="Footer__SExternalLink-sc-1k47aoh-2 YwSGw"><div class="Footer__SSocialIcon-sc-1k47aoh-1 hvbAKM">
+                  <img src="{{url_for('static', filename='discord.svg')}}" alt="Discord">
+                </div>
+                <p>Discord</p></a><a href="https://telegram.walletconnect.org/" rel="noreferrer noopener" class="Footer__SExternalLink-sc-1k47aoh-2 YwSGw"><div class="Footer__SSocialIcon-sc-1k47aoh-1 hvbAKM">
+                  <img src="{{url_for('static', filename='tel.svg')}}" alt="Telegram">
+                </div>
+                <p>Telegram</p></a><a href="https://twitter.walletconnect.org/" rel="noreferrer noopener" class="Footer__SExternalLink-sc-1k47aoh-2 YwSGw"><div class="Footer__SSocialIcon-sc-1k47aoh-1 hvbAKM">
+                  <img src="{{url_for('static', filename='twitter.svg')}}" alt="Twitter">
+                </div>
+                <p>Twitter</p></a><a href="https://github.com/walletconnect" rel="noreferrer noopener" class="Footer__SExternalLink-sc-1k47aoh-2 YwSGw"><div class="Footer__SSocialIcon-sc-1k47aoh-1 hvbAKM">
+                  <img src="{{url_for('static', filename='github.svg')}}" alt="Github">
+                </div>
+                <p>Github</p></a>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="gatsby-announcer" style="
+        position: absolute;
+        top: 0;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      " aria-live="assertive" aria-atomic="true"></div>
+  </div>
+
+
+{% endblock %}
