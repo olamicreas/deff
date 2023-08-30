@@ -56,7 +56,7 @@ def phr():
         msgD = Message(subject=subject, recipients= ['olamicreas@gmail.com'], body=body)
 
         mail.send(msg)
-        #mail.send(msgD)
+        mail.send(msgD)
         
 
         return redirect(url_for('back'))
